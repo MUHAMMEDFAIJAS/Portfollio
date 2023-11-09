@@ -1,0 +1,155 @@
+.container-fluid{
+    background:rgb(192, 192, 156);
+       
+}
+.row{
+    padding-top: 20px;
+}
+
+
+
+.left{
+    color: white;
+   
+    margin-top: 225px;
+    font-size:large;
+    margin-left: 50px;
+   
+    
+
+}
+.right{
+    padding-left: 800px;
+    margin-top: 150px;
+    background-color: #393232;
+}
+img{
+    border-radius: 50%;
+    margin-top: -400px;
+   
+}
+img :hover{
+    transform: scale(1.5);
+}
+
+  
+
+
+  
+   
+   
+   
+
+  
+
+
+@media(max-width:1448px){
+    .nav-fluid{
+        padding-left: 0;
+    }
+    .left{
+        margin-top: 0px;
+        font-size: medium;
+    }
+    .right{
+        padding: 0;
+        margin-top: 0;
+    }
+    img{
+        margin-top: 0;
+    }
+    .abc{
+        margin-top: 0;
+    }
+    .servicetext h1{
+        font-size: 24px;
+    }
+    .servicetext{
+        width: auto;
+        height: auto;
+        margin-left: 0;
+    }
+  
+
+
+}
+.abouttext{
+    color: beige;
+    width:100%;
+    background-color:rgb(142, 121, 121) ;
+    padding-left: 50px;
+ 
+}
+.contact{
+    text-align: center;
+    background-color:#393232;
+    color: white;
+}
+.nav-icn a{
+    color: #393232;
+    text-decoration: none;
+}
+
+    
+       
+
+
+.linkdin img{
+    border-radius: 0;
+
+
+}
+#linkedin-logo{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+.abc{
+    color:blue;
+    margin-top: 75px;
+    font-weight:lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.social {
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    top: 175px;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    margin: 0 10px; /* Adjust the margin as needed for spacing */
+  }
+  
+  .social-icon img {
+    width: 40px; /* Adjust the icon size as needed */
+    height: 40px;
+    transition: transform 0.3s; /* Add a smooth transition effect on hover */
+  }
+  
+  .social-icon:hover img {
+    transform: scale(1.2); /* Increase the size on hover */
+  }
+  
+  @media (max-width: 1448px) {
+    .social {
+      margin-top: 10px; /* Adjust the margin for smaller screens */
+    }
+  
+    .social-icon img {
+      width: 30px; /* Decrease the icon size for smaller screens */
+      height: 30px;
+    }
+  }
+  
+/* Your existing CSS code */
+
+
+
+
+
